@@ -1,11 +1,12 @@
 
 ````markdown
+````
 # Premier League Dashboard
 
 An interactive dashboard that visualizes Premier League match data, provides simple analytics, and includes a lightweight rule-based prediction tool.  
 Built for exploratory analysis and technical demonstration — useful to showcase front-end, data-processing, and simple modeling skills to recruiters and hiring managers.
 
----
+
 
 ## Overview
 
@@ -157,7 +158,6 @@ selenium, pandas
 
 ```
 
----
 
 
 
