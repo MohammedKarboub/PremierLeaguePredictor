@@ -159,11 +159,5 @@ selenium, pandas
 
 ---
 
-### 🔍 Summary of your small fixes
-- Removed an **extra backtick** after `cd ML-Proj` (you had four instead of three).  
-- Made line breaks consistent (Markdown prefers double spaces for soft line breaks).  
-- Cleaned small spacing issues under “Dependencies.”  
-
----
 
 
