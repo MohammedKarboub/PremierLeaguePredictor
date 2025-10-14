@@ -1,5 +1,5 @@
 
-````
+
 
 # Premier League Dashboard
 
@@ -35,7 +35,7 @@ This project combines data scraping, data visualization, and basic analytics in 
 1. Navigate to the main project folder:
    ```bash
    cd ML-Proj
-````
+
 
 2. Install dependencies:
 
