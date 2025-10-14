@@ -1,12 +1,10 @@
----
 
-`markdown
 # Premier League Dashboard
 
 A compact interactive dashboard that visualizes Premier League match data, provides simple analytics, and includes a lightweight rule-based matchup and prediction tool.  
 Built for exploratory analysis and technical demonstration — useful to showcase front-end, data-processing, and simple modeling skills to recruiters and hiring managers.
 
----
+
 
 ## Highlights
 
@@ -107,12 +105,3 @@ Missing columns display as blank. Match IDs are array indices (used in `/match/:
 
 
 
----
-
-**For demonstration purposes only.**
-
-
-
-
-.
-```
