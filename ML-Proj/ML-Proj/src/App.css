@@ -1,0 +1,81 @@
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.logo {
+  height: 48px;
+  padding: 0.5rem;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover { filter: drop-shadow(0 0 6px rgba(100,108,255,0.35)); }
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 1rem;
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 8px;
+}
+
+.read-the-docs { color: #9aa6bf }
+
+.app header { text-align: left; margin-bottom: 1rem }
+.app .page { padding: 1rem 0 }
+.subtitle { color: #666; margin-top: -0.5rem }
+.error { color: #b00020 }
+.table-wrap { overflow: auto; margin-top: 1rem }
+.matches { width: 100%; border-collapse: collapse; background: transparent }
+.matches th, .matches td { padding: 0.5rem 0.75rem; border-bottom: 1px solid rgba(255,255,255,0.04); text-align:left }
+.matches thead { background: transparent }
+.matches th { color: #cbd5e1; font-weight:600; }
+.matches td { color: #dbeafe }
+.summary { margin-bottom: 1rem; font-weight: 600 }
+
+/* Navigation */
+.nav { display:flex; justify-content:space-between; align-items:center; padding:0.5rem 0; border-bottom:1px solid rgba(255,255,255,0.04); margin-bottom:1rem }
+.nav a { margin:0 0.5rem; color:#cbd5e1; text-decoration:none }
+.brand { font-weight:700; font-size:1.05rem; color:#fff }
+
+.hero .cards { display:flex; gap:1rem }
+.card { background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); border:1px solid rgba(255,255,255,0.04); padding:1rem; border-radius:6px }
+
+.teams-page { display:flex; flex-direction:column }
+.teams-panel { display:flex; gap:1rem }
+.teams-list { width:240px }
+.teams-list ul { list-style:none; padding:0; max-height:400px; overflow:auto }
+.teams-list li { padding:0.25rem 0 }
+.muted { color:#9aa6bf }
+
+.clickable-row td a { color: inherit; display:block; text-decoration:none }
+.clickable-row:hover { background: rgba(255,255,255,0.02) }
+
+@media (max-width:800px) {
+  .teams-panel { flex-direction:column }
+}
+
+.analyze-grid { display:flex; gap:1rem }
+.analyze-grid .left { width:320px; max-width: 38%; min-width: 220px }
+.analyze-grid .right { flex:1 }
+.card input[type=file] { display:block; margin-top:0.5rem }
+.team-selector select { width:100%; padding:0.4rem }
+.matchup-controls { display:flex; gap:8px; align-items:center; flex-wrap:wrap }
+.matchup-controls select { min-width: 140px; max-width: 100%; padding:0.4rem }
+
+@media (max-width:900px){ .analyze-grid { flex-direction:column } }
