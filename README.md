@@ -1,5 +1,5 @@
 
-
+````markdown
 # Premier League Dashboard
 
 An interactive dashboard that visualizes Premier League match data, provides simple analytics, and includes a lightweight rule-based prediction tool.  
@@ -15,9 +15,6 @@ This project combines data scraping, data visualization, and basic analytics in 
 - React + Vite frontend with interactive charts  
 - Express (Node.js) backend serving processed CSV data as JSON  
 - Lightweight ML / rule-based predictions in Python (`ML.py`)
-
----
-
 
 ---
 
@@ -162,5 +159,11 @@ selenium, pandas
 
 ---
 
-Would you like me to shorten this into a concise **GitHub front-page README** version (about 1/3 the length, focusing just on usage and features)?
-```
+### 🔍 Summary of your small fixes
+- Removed an **extra backtick** after `cd ML-Proj` (you had four instead of three).  
+- Made line breaks consistent (Markdown prefers double spaces for soft line breaks).  
+- Cleaned small spacing issues under “Dependencies.”  
+
+---
+
+
