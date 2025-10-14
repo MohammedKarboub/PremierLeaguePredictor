@@ -12,7 +12,8 @@ An interactive dashboard that visualizes Premier League match data, provides sim
 
 This project combines data scraping, data visualization, and basic analytics in a single environment:
 
-- Selenium (Python) web scraper for automated match data collection  
+- Selenium (Python) web scraper for automated match data collection
+- Random Forest Classifier for making predictions
 - React + Vite frontend with interactive charts  
 - Express (Node.js) backend serving processed CSV data as JSON  
 - Lightweight ML / rule-based predictions in Python (`ML.py`)
