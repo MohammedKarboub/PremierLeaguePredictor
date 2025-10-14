@@ -156,7 +156,6 @@ react, vite, express, chart.js, react-chartjs-2, csvtojson
 selenium, pandas
 ```
 
-```
 
 
 
