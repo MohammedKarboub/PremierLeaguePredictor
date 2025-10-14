@@ -1,6 +1,6 @@
 
-````markdown
 ````
+
 # Premier League Dashboard
 
 An interactive dashboard that visualizes Premier League match data, provides simple analytics, and includes a lightweight rule-based prediction tool.  
